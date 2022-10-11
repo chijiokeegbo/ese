@@ -1,0 +1,67 @@
+
+body{
+	background: url(bk.png);
+	width: 50rem;
+	height: 20rem;
+	justify-content: center;
+
+}
+
+.id-counter{
+	background: white;
+	width: 26rem;
+	height: 26rem;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+	margin-top: .5rem;
+	padding-top: .8rem;
+
+}
+h2{
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.id-counter button{
+	margin-left: 7rem;
+
+}
+button{
+	position: relative;
+	margin-top: .5rem;
+	padding: 1rem 1.3rem;
+	border: none;
+	font-size: 1.1rem;
+	border-radius: .5rem;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	width: 12rem;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+#increment-btn {
+	background-color: darkred;
+	color: white;
+	font-weight: bold;
+}
+
+#save-btn{
+	background: darkgreen;
+	color: white;
+	font-weight: bold;
+}
+
+#my-name {
+	background: deepskyblue;
+	color: white;
+	font-weight: bold;
+}
+
+p{
+	padding-top: 0rem;
+	font-weight: bold;
+}

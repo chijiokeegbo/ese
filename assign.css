@@ -1,0 +1,43 @@
+
+
+body{
+	background: url(bk.png);
+	width: 16rem;
+	height: 20rem;
+	padding: 2rem;
+	justify-content: center;
+}
+.item{
+	background-color: white;
+	justify-content: center;
+
+}
+
+img{
+	width: 12rem;
+	display: block;
+	padding: .7rem 1.5rem;
+
+}
+
+p{
+	font-weight: 600;
+	margin-bottom: .2rem;
+	margin-left: 5rem;
+}
+
+button{
+	background: white;
+	color: black;
+	margin: 2rem 2rem;
+	border: .2rem solid black;
+	padding: 1rem 2rem;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3rem;
+}
+
+#error{
+	color: red;
+	font-weight: 200;
+}
